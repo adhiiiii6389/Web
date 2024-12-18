@@ -1,0 +1,188 @@
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    width: 75%;
+}
+
+/* Upper Section (Two Parts - Left and Right) */
+.upper-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+/* Left Box (Image and Background Box) */
+.left-box {
+    position: relative;
+    width: 35%;
+}
+
+/* Profile Image Container */
+.image-container {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 5px solid #fff;
+}
+
+/* Background Box Behind the Image */
+.background-box {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 150px;
+    height: 150px;
+    background-color: #283046;
+    border-radius: 50%;
+    z-index: -1; /* Place the background behind the image */
+}
+
+/* Right Box (Personal Info + Profile) */
+.right-box {
+    width: 60%;
+    padding-left: 20px; /* Add some space between the left and right parts */
+}
+
+.right-box h1 {
+    font-size: 3.5rem;
+    color: #283046;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.card h2 {
+    font-size: 1.5rem;
+    color: #283046;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 5px;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Contact Info Styling */
+.contact-info {
+    font-size: 1rem;
+    color: #888;
+    margin-top: 20px;
+}
+
+/* Lower Section Styling */
+.lower-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/* Left Lower Box (Skills, Courses, Languages) */
+.left-lower-box {
+    width: 30%;  /* Adjusted width to 25% */
+}
+
+.left-lower-box section {
+    margin-bottom: 20px;
+}
+
+.skills-left li {
+    margin-bottom: 10px;
+}
+
+/* Right Lower Box (Education) */
+.right-lower-box {
+    width: 80%;  /* Adjusted width to 75% */
+}
+
+/* Education Section (Remove Background) */
+.no-background {
+    background-color: transparent;
+}
+
+.education-entry {
+    margin-bottom: 20px;
+}
+
+.education-entry h3 {
+    font-size: 1.2rem;
+    color: #283046;
+    font-weight: bold;
+}
+
+.education-entry .date {
+    font-size: 1rem;
+    color: #777;
+    margin: 5px 0;
+}
+
+.education-entry .description {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 10px;
+}
+
+/* Attractive Styling for Courses and Languages */
+.attractive-box {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.attractive-box h2 {
+    font-size: 1.5rem;
+    color: #283046;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+}
+
+.attractive-box ul {
+    list-style: none;
+    padding: 0;
+}
+
+.attractive-box li {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.attractive-box i {
+    margin-right: 10px;
+    color: #283046;
+}

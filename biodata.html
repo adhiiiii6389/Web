@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            max-width: 1000px;
+            margin: auto;
+            border: 1px solid #000;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            background: url('adarsh.jpg') no-repeat center center;
+            background-size: cover;
+            margin-left: 30px;
+        }
+
+        .title {
+            margin-left: 25%;
+            font-size: 64px;
+            font-weight: bold;
+            color: #00264d; /* Text color matching the image background */
+        }
+
+        .content {
+            display: flex;
+            flex-direction: row;
+            margin-top: 20px;
+        }
+
+        .right-section {
+            background-color: #00264d; /* Background color */
+            color: white;
+            width: 40%;
+            padding: 20px;
+        }
+
+        .left-section {
+            background-color: #f0f0f0; /* Light background */
+            color: #00264d; /* Text color matching the image */
+            width: 60%;
+            padding: 20px;
+        }
+
+        .section-title {
+            
+            font-weight: bold;
+            font-size: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .details {
+            line-height: 1.6;
+            font-weight: 300; /* Lighter text weight */
+        }
+
+        .contact-info {
+            margin-top: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .contact-info a {
+            color: #00264d;
+            text-decoration: none;
+        }
+
+        .hobbies-list {
+            margin: 10px 0;
+            padding-left: 20px;
+        }
+
+        .icons {
+            margin-top: 10px;
+            display: flex;
+            gap: 10px;
+        }
+
+        .icon {
+            width: 24px;
+            height: 24px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="profile-image"></div>
+            <div class="title">Adarsh S Eti</div>
+        </div>
+
+        
+
+        <div class="content">
+
+            <div class="right-section">
+                <div class="section-title">Profile</div>
+                <div class="details">
+                    <p>Hey everyone,</p>
+                    <p>I'm Adarsh, and it's awesome to be here with all of you today. As a Computer Science Engineering student at SJBIT, I've been diving headfirst into the tech world, learning, experimenting, and growing every day.</p>
+                    <p>But let me tell you, being a good student is so much more than just hitting the books. It's about being curious, staying resilient, and always looking for ways to help out and get involved. Whether it's through cool projects, volunteering, or just lending a hand to my peers, I'm all about making a difference and having a blast while doing it.</p>
+                </div>
+    
+                <div class="section-title">Contact Info</div>
+                <div class="details">
+                    <p>Phone: +91 9999988888</p>
+                    <p>Email: <a href="mailto:adarsh@gmail.com">adarsh@gmail.com</a></p>
+                    <p>Website: <a href="adarsh/resume.html">adarsh/resume.html</a></p>
+                </div>
+    
+                <div class="icons">
+                    <img class="icon" src="instagram.png" alt="Instagram">
+                    <img class="icon" src="facebook.png" alt="Facebook">
+                    <img class="icon" src="linkedin.png" alt="LinkedIn">
+                </div>
+            </div>
+
+            <div class="left-section">
+                <div class="section-title">Personal Info</div>
+                <div class="details">
+                    <p>Name: Adarsh S Eti</p>
+                    <p>Age: 24</p>
+                    <p>Date of Birth: 15-08-1999</p>
+                    <p>Height: 5'9"</p>
+                    <p>Weight: 70 kg</p>
+                    <p>Blood Group: O+</p>
+                </div>
+
+                <div class="section-title">Family Details</div>
+                <div class="details">
+                    <p>Father's Name: Ramesh Eti</p>
+                    <p>Mother's Name: Sunita Eti</p>
+                    <p>Telephone No: +91 9999988888</p>
+                </div>
+
+                <div class="section-title">Hobbies</div>
+                <ul class="hobbies-list">
+                    <li>Open Source Contribution</li>
+                    <li>Competitive Programming</li>
+                    <li>Blogging</li>
+                    <li>Reading Tech Blogs</li>
+                    <li>Building Personal Projects</li>
+                    <li>Learning New Programming Languages</li>
+                </ul>
+            </div>
+
+            
+        </div>
+    </div>
+</body>
+</html>

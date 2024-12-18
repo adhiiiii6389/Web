@@ -1,0 +1,194 @@
+/* Global Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body and Font Setup */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f7fc;
+    color: #333;
+}
+
+/* Navbar Styling */
+.navbar {
+    background-color: #6a4c93;  /* Dark Purple */
+    padding: 15px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .ccontainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar .logo h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 20px;
+}
+
+.navbar .nav-links li {
+    list-style-type: none;
+}
+
+.navbar .nav-links a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.navbar .nav-links a:hover {
+    color: #3c7c7e;  /* Teal on hover */
+}
+
+/* Main Content Section */
+.main-content {
+    padding: 60px 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.ccontainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.hero-text {
+    flex: 0 0 50%;
+}
+
+.hero-text h1 {
+    font-size: 3rem;
+    color: #333;
+    font-family: 'Poppins', sans-serif;
+}
+
+.hero-text p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.6;
+    max-width: 600px;
+}
+
+.hero-image {
+    flex: 0 0 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 300px;
+    border-radius: 50%;
+    border: 5px solid #6a4c93;  /* Dark Purple Border */
+}
+
+/* About Section */
+.about {
+    margin-bottom: 50px;
+}
+
+.section-header h2 {
+    font-size: 2rem;
+    color: #6a4c93;  /* Dark Purple */
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 1.8;
+    max-width: 800px;
+}
+
+/* Downloads Section */
+.downloads {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.downloads .download-buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.downloads .btn {
+    background-color: #6a4c93;  /* Dark Purple */
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 1.1rem;
+    text-decoration: none;
+    border-radius: 6px;
+    transition: background-color 0.3s ease;
+}
+
+.downloads .btn:hover {
+    background-color: #3c7c7e;  /* Teal Hover */
+}
+
+/* Footer */
+.footer {
+    margin-bottom: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-text {
+        margin-bottom: 30px;
+    }
+
+    .hero-image {
+        margin-bottom: 30px;
+    }
+
+    .hero-text h1 {
+        font-size: 2.2rem;
+    }
+
+    .downloads .download-buttons {
+        flex-direction: column;
+    }
+}

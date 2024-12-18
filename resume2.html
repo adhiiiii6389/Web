@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link rel="stylesheet" href="style2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f8f9fa;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 20px auto;
+            padding: 20px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .upper-section {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .left-box {
+            text-align: center;
+            width: 30%;
+            position: relative;
+        }
+
+        .profile-image {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #6a4c93;
+        }
+
+        .background-box {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 170px;
+            height: 170px;
+            background-color: #6a4c93;
+            border-radius: 50%;
+            z-index: -1;
+        }
+
+        .right-box {
+            width: 65%;
+        }
+
+        .right-box h1 {
+            font-size: 2.5rem;
+            color: #6a4c93;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            font-size: 1rem;
+            color: #555;
+            margin-top: 10px;
+        }
+
+        .card {
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .nobackground-box{
+            border-radius: 8px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .nobackground-box h2 {
+            font-size: 1.5rem;
+            color: #6a4c93;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .card h2 {
+            font-size: 1.5rem;
+            color: #6a4c93;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 5px;
+        }
+
+        .lower-section {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 40px;
+        }
+
+        .left-lower-box {
+            width: 40%;
+        }
+
+        .right-lower-box {
+            width: 55%;
+        }
+
+        .skills-left li, .languages ul li {
+            margin-bottom: 10px;
+        }
+
+        .attractive-box ul {
+            list-style-type: none;
+        }
+
+        .attractive-box li {
+            display: flex;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+
+        .attractive-box li i {
+            color: #6a4c93;
+            margin-right: 10px;
+        }
+
+        .education-entry {
+            margin-bottom: 20px;
+            margin-left: 20px;
+        }
+
+        .education-entry h3 {
+            font-size: 1.2rem;
+            color: #8c72b0;
+            font-weight: bold;
+        }
+
+        .education-entry .date {
+            font-size: 0.9rem;
+            color: #777;
+            margin: 5px 0;
+        }
+
+        .education-entry .description {
+            font-size: 1rem;
+            color: #555;
+        }
+
+        .ffooter {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 2px solid #eee;
+            color: #555;
+            font-size: 0.9rem;
+        }
+
+        .ffooter a {
+            color: #6a4c93;
+            text-decoration: none;
+        }
+
+        .ffooter a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="ccontainer">
+            <div class="logo">
+                <h2>Adarsh S Eti</h2>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="resume2.html" class="nav-link">Resume</a></li>
+                <li><a href="biodata.html" class="nav-link">BioData</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="upper-section">
+            <div class="left-box">
+                <div class="image-container">
+                    <img src="adarsh.jpg" alt="Adarsh Image" class="profile-image">
+                    <div class="background-box"></div>
+                </div>
+            </div>
+            <div class="right-box">
+                <h1>Adarsh S Eti</h1>
+                <p class="contact-info">adarsh@sjbit.edu.in | 9006325546 | Bangalore, India</p>
+                <section id="profile" class="card">
+                    <h2>Profile</h2>
+                    <p>Hardworking college student seeking employment. Proven ability to establish and maintain excellent communication and relationships. Strong organizational abilities with successes managing multiple academic projects and volunteer efforts.</p>
+                </section>
+            </div>
+        </div>
+
+        <div class="lower-section">
+            <div class="left-lower-box">
+                <section id="skills" class="card">
+                    <h2>Skills</h2>
+                    <ul class="skills-left">
+                        <li>Love of Learning: 3/5</li>
+                        <li>Complex Problem Solving: 2/5</li>
+                        <li>Coding and Scripting: 3/5</li>
+                        <li>Time Management: 2/5</li>
+                        <li>Analytical Thinking: 2/5</li>
+                    </ul>
+                </section>
+
+                <section id="courses" class="card attractive-box">
+                    <h2>Courses</h2>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Programming Languages</li>
+                        <li><i class="fas fa-cogs"></i> Data Structures</li>
+                        <li><i class="fas fa-database"></i> Databases</li>
+                        <li><i class="fas fa-laptop-code"></i> Web Development</li>
+                        <li><i class="fas fa-tools"></i> Software Development Tools</li> <!-- New course -->
+                        <li><i class="fas fa-desktop"></i> Operating Systems</li> <!-- New course -->
+                        <li><i class="fas fa-network-wired"></i> Networking</li> <!-- New course -->
+                        <li><i class="fas fa-mobile-alt"></i> Mobile App Development</li> <!-- New course -->
+                        <li><i class="fas fa-cloud"></i> Cloud Computing</li> <!-- New course -->
+                        <li><i class="fas fa-shield-alt"></i> Cybersecurity</li> <!-- New course -->
+                        <li><i class="fas fa-desktop"></i> Internet of Things (IoT)</li> <!-- New course -->
+                    </ul>
+                </section>
+
+                
+
+            </div>
+
+            <div class="right-lower-box">
+                <section id="education" class="nobackground-box">
+                    <h2>Education</h2>
+
+                    <div class="education-entry">
+                        <h3>BTech, SJBIT, Bangalore</h3>
+                        <p class="date">12/2022 – 12/2026</p>
+                        <p class="description">I'm honored to share a bit about my journey as a CSE BTech student at SJBIT. This experience has been a transformative adventure, filled with cutting-edge knowledge, innovative projects, and a supportive community. I am excited to leverage these skills and experiences to contribute to the ever-evolving field of technology.</p>
+                    </div>
+
+                    <div class="education-entry">
+                        <h3>Honors in B.E., VTU, Belagavi</h3>
+                        <p class="date">12/2022 – 12/2026</p>
+                        <p class="description">I'm honored to share a bit about receiving my Honors Certificate in B.E. from VTU. This accolade represents my unwavering dedication to academic excellence and my passion for deepening my understanding of Computer Science. It truly embodies the hard work and determination I put into mastering this field.</p>
+                    </div>
+                </section>
+                <section id="courses" class="card attractive-box">
+                    <h2>Languages</h2>
+                    <ul>
+                        <li>C..............................................Intermediate</li>
+                        <li>Java........................................Intermediate</li>
+                        <li>HTML............................................Beginner</li>
+                        <li>CSS...............................................Beginner</li>
+                        <li>Python...........................................Advance</li>
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer class="ffooter">
+        <p>&copy; 2024 Adarsh S Eti. Designed with care ❤️.</p>
+    </footer>
+</body>
+</html>
